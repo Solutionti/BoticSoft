@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- AQUI FALTA cargar bootstrap CSS  -->
+
+</head>
+
+<body>
+
+<div class="navbar navbar-fixed-top">
+
+		<!-- Logo -->
+
+		<a href="index.html" class="brand logo"><h1 class="titLogo">LOGO</h1></a>
+
+	    <!-- RESPONSIVE TOOGLE MENU -->
+
+            <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar visible-phone" type="button">
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+
+            </button>
+
+	    <!-- Navigation -->
+
+	   <div>
+
+            <ul class="nav navbar-nav nav-collapse collapse">
+
+                <li class="item itemNav"><a href="#one" class="aLink active">One</a></li>
+
+                <li class="item itemNav"><a href="#two" class="aLink">Two</a></li>
+
+                <li class="item itemNav"><a href="#three" class="aLink">Three</a></li>
+
+                <li class="item itemNav"><a href="#four" class="aLink">Four</a></li>
+
+                <li class="item itemNav"><a href="#five" class="aLink">Five</a></li>
+
+                <li class="item itemNav hidden-phone"><a href="#six" class="aLink">Six</a></li>
+
+                <li class="item itemNav hidden-phone"><a href="#seven" class="aLink">Seven</a></li>
+
+                <li class="item itemNav hidden-phone"><a href="#eight" class="aLink">Eight</a></li>
+
+            </ul>
+
+        </div>
+
+	</div>		
+
+</div>
+
+        <!-- AQUI FALTA CARGAR jquery + bootstrap JS  -->        
+
+		<script>   
+
+			$(document).ready(function() { 
+
+			    $('.itemNav').click(function(){
+
+                    var $target = $('.nav-collapse');
+
+                    if($target.hasClass('in')){
+
+                        $target.removeClass('in').height(0).css('overflow','hidden');                           }
+
+                });			
+
+			});
+
+		</script> 
+
+</body>
+
+</html>

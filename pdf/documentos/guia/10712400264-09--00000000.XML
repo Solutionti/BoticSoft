@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DespatchAdvice xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2">
+        <ext:UBLExtensions>
+            <ext:UBLExtension>
+                <ext:ExtensionContent>
+                <ds:Signature Id="SignatureSP"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>5LiNoW4D1ik0skLyy7yVxLsx2QU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Jla60L/ij4A12WfbJMT3RM5pSZ9l95k6OsrHCReKOW9ZL8UdJD2BDyYGNB616s9QIyDSc+0ElIioVEPwaNR0GrCcfPq0+v17di6uvRfxvA6pS4GoM6fprvF77x2Zt9uVUpAn8ajVmyKgLQsTRBcCBJAZSTgDEwyZumOUdlOQGL8=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIB1TCCAT6gAwIBAgIQH3DQLVoJ0JtJmalhMXOSNzANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4AZABlAHMAYQByAHIAbwBsAGwAbwBcAGoAbwBzAGUwHhcNMTYxMDIwMDMyNzA5WhcNMTcxMDIwMDkyNzA5WjApMScwJQYDVQQDHh4AZABlAHMAYQByAHIAbwBsAGwAbwBcAGoAbwBzAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJAgo+/agotsd1ut8SWsOY7drTNIDXHjKc+45QMPSsKWvsou9wjii7ajB9pRAuELXDLNRCaVRGy2ijDzKUgpK38+mfTZXa5UQCuCNiVfaDM8/dm6bzXtCNbw5SmD5QuODFfNvpPz9Jexs22q3rNUkweENI4uFwvXeaT873tVwr7LAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAHWxYvvKmA1aRBEIkjFyj+vTn+k9+ALFAO4hSs6f7AOiqdaDcvvIl4UCeZ3LQTKbFQn1Z+vDlJK1tIJiTN/5BkCrgb7Wasmv4EpEaQ+lZQDpK8OBAuMoDHfCwprIufsOULge36HI1FfIBQj8p8UNXYifPYNEzd6XBwMI5miZNBYM=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+            </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+        <cbc:CustomizationID>1.0</cbc:CustomizationID>
+    <cbc:ID>-00000000</cbc:ID>
+    <cbc:IssueDate/>
+    <cbc:DespatchAdviceTypeCode>09</cbc:DespatchAdviceTypeCode>
+    <cbc:Note>esta es una nota</cbc:Note>
+    
+    <cac:DespatchSupplierParty>
+            <cbc:CustomerAssignedAccountID schemeID="6">10712400264</cbc:CustomerAssignedAccountID>
+            <cac:Party>
+                <cac:PartyLegalEntity>
+    <cbc:RegistrationName><![CDATA[Orbitek Solutions]]></cbc:RegistrationName>
+                </cac:PartyLegalEntity>
+            </cac:Party>
+        </cac:DespatchSupplierParty>
+    
+    <cac:DeliveryCustomerParty>
+    <cbc:CustomerAssignedAccountID schemeID="6"/>
+            <cac:Party>
+                <cac:PartyLegalEntity>
+    <cbc:RegistrationName><![CDATA[]]></cbc:RegistrationName>
+                </cac:PartyLegalEntity>
+            </cac:Party>
+        </cac:DeliveryCustomerParty>
+    
+    <cac:Shipment>
+            <cbc:ID>1</cbc:ID>
+            <cbc:HandlingCode/>
+            <cbc:Information/>
+            <cbc:GrossWeightMeasure unitCode="KGM"/>
+    <cbc:TotalTransportHandlingUnitQuantity/>
+    
+            <cac:ShipmentStage>
+                <cbc:TransportModeCode/>
+                <cac:TransitPeriod>
+                    <cbc:StartDate/>
+                </cac:TransitPeriod>
+                <cac:CarrierParty>
+                    <cac:PartyIdentification>
+    <cbc:ID schemeID="6"/>
+                    </cac:PartyIdentification>
+                    <cac:PartyName>
+                        <cbc:Name><![CDATA[]]></cbc:Name>
+                    </cac:PartyName>
+                </cac:CarrierParty>
+            </cac:ShipmentStage>
+            
+    <cac:Delivery>
+                <cac:DeliveryAddress>
+                    <cbc:ID/>
+                    <cbc:StreetName/>
+                </cac:DeliveryAddress>
+            </cac:Delivery>
+            
+    <cac:OriginAddress>
+                <cbc:ID/>
+                <cbc:StreetName/>
+    </cac:OriginAddress>
+        </cac:Shipment>
+        
+        </DespatchAdvice>

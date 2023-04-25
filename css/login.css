@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+body,html {
+  font-family: 'Source Sans Pro', sans-serif;
+
+background-image: url(../img/fondo.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #464646;
+
+}
+
+
+.container{
+  margin: 0;
+  top: 60px;
+  left: 78%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 9px;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+  width: 400px;
+  height: 500px;
+}
+
+.box h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-size: 18px;
+}
+
+.box h4 span {
+  color: black;
+  font-weight: lighter;
+}
+
+.box h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  color: black;
+  letter-spacing: 1.5px;
+  margin-top: -15px;
+
+}
+
+.box input[type = "text"],.box input[type = "password"] {
+  display: block;
+  margin: 20px auto;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  border: 0;
+  border-radius: 5px;
+  padding: 14px 10px;
+  width: 320px;
+  outline: none;
+  color: black;
+      -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+
+}
+::-webkit-input-placeholder {
+  color: black;
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus {
+  border: 1px solid #79A6FE;
+
+}
+p{
+color: black;
+font-size: 14px;
+}
+a{
+  color: #5c7fda;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ label input[type = "checkbox"] {
+  display: none; /* hide the default checkbox */
+}
+
+/* style the artificial checkbox */
+label span {
+  height: 13px;
+  width: 13px;
+  border: 2px solid #464d64;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  left: 7.5%;
+}
+
+.btn1 {
+  border:0;
+  background: #001394;
+  color: #dfdeee;
+  height: 35px;
+  font-size: 12px;
+  top: 79%;
+  left: 8%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background: #001364;
+}
+
+
+
+
+.dnthave{
+    top: 92%;
+    left: 24%;
+}
+
+[type=checkbox]:checked + span:before {/* <-- style its checked state */
+    font-family: FontAwesome;
+    font-size: 16px;
+    content: "\f00c";
+    position: absolute;
+    top: -4px;
+    color: #896cec;
+    left: -1px;
+    width: 13px;
+}
+
+
+
+
+
+.error {
+  background: #ff3333;
+  text-align: center;
+  width: 337px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px auto 10px;
+  position: absolute;
+  top: 31%;
+  left: 7.2%;
+  color: white;
+  display: none;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 605px;
+    width: 100%;
+    color: #78797d;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer .fa {
+  color: #7f5feb;;
+}

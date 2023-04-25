@@ -1,0 +1,53 @@
+ .textfield10:hover {
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #001394;
+}
+.textfield10:focus {
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #001394;
+}
+.textfield10{
+  float:left;
+  width:100%;
+  padding-left: 5px;
+  padding-top: 4px; margin:1.5px;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border-radius: 7px;
+}
+.textfield11:hover {
+  border:2px solid #001394;height:26px;
+}
+
+.textfield11:focus {
+
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #001394;
+}
+.textfield11{
+  display: block;
+  float:left;
+  width:100%;
+  padding-left: 5px;
+  padding-top: 4px; margin:1.5px;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border-radius: 7px;
+}
+.form-control{
+
+ }
+:input-placeholder { /* Edge */
+  color: red;
+}
+
+:input-placeholder { /* Internet Explorer */
+  color: red;
+}
+
+ .form-control:hover{
+    border:1px solid #001394;
+}
