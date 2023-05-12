@@ -108,7 +108,7 @@ $delete=mysqli_query($con, "DELETE FROM tmp WHERE id_tmp='".$id_tmp."'");
       </td>
 			<td style="background:white;"><?php echo $nombre_producto;?></td>
       <td class='text-right' style="background:white;">
-      <input type="text"  id="precio_tmp-<?php echo $id_tmp;?>" name="precio_tmp-<?php echo $id_tmp;?>" class="monto input" style="height:20px; width:70px;text-align: justify;" value="<?php echo str_replace(",","",number_format($precio_venta_f,2));?>">
+      <input type="text" disabled id="precio_tmp-<?php echo $id_tmp;?>" name="precio_tmp-<?php echo $id_tmp;?>" class="monto input" style="height:20px; width:70px;text-align: justify;" value="<?php echo str_replace(",","",number_format($precio_venta_f,2));?>">
       </td>
       <td class='text-right' style="background:white;">
       <input class="monto total" type="text" readonly value="<?php echo str_replace(",","",number_format($precio_total_f,2));?>" style="height:20px; width:70px;text-align: justify;">

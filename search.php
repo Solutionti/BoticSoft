@@ -231,7 +231,7 @@ if(strlen ($q)>=1)
           </td>
           <td><span style="font-size: 10px;" class="label <?php echo $label_class_fecha;?>"><?php echo $f_caducidad; ?></span></td>
           <td ><input type="text"  style="text-align:center;width:35px;" id="cant_<?php echo $id; ?>" value="1" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '1';}"></td>
-          <td><input type="text"   style="text-align:center;width:40px;" id="precio_<?php echo $id; ?>"  value="<?php echo $precio_venta;?>" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '<?php echo $precio_venta;?>';}"></td>
+          <td><input type="text"   style="text-align:center;width:40px;" disabled id="precio_<?php echo $id; ?>"  value="<?php echo $precio_venta;?>" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '<?php echo $precio_venta;?>';}"></td>
           <td ><a class='btn btn-info'href="#" onclick="agregar2('<?php echo $id ?>')"><i class="glyphicon glyphicon-plus"></i></a></td>
       </tr>
     </tbody>
