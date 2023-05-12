@@ -71,7 +71,7 @@ $delete=mysqli_query($con, "DELETE FROM tmp WHERE id_tmp='".$id_tmp."'");
 	<th style="width:10%;" class='text-center' >CODIGO</th>
 	<th style="width:5%;" class='text-center'>CANT.</th>
 	<th style="width:50%;">DESCRIPCION</th>
-	<th style="width:5%;" class='text-center'>PRECIO UNIT.</th>
+	<th style="width:5%;" class='text-center'>PRECI UNIT.</th>
 	<th style="width:10%;" class='text-center'>PRECIO TOTAL</th>
 	<th style="width:10%;"></th>
 </tr>
